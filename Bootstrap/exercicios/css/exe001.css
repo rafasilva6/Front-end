@@ -1,0 +1,48 @@
+
+
+@media(max-width: 768px){
+    .principal{
+        background-image: url(../css/cll.jpg);
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 100px;
+
+    }
+}
+@media(min-width: 768px){
+    .principal{
+        background-image: url(../css/cll.jpg);
+        height: 50px;
+        width: 100px;
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media(min-width: 992px){
+    .principal{
+        background-image: url(../css/tablet.jpg);
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 100px;
+
+    }
+}
+@media(min-width: 1200px){
+    .principal{
+        background-image: url(../css/desktop.jpg);
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 100px;
+
+    }
+}
+@media(min-width: 1400px){
+    .principal{
+        background-image: url(../css/tv.webp);
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 100px;
+
+    }
+}

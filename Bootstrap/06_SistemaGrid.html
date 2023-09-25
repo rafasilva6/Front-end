@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <!--Usando col que divide de forma igualitaria,
+    as colunas se adaptam ao tamanho da tela-->
+    <h1>1. Grid basico</h1>
+    <div class="row">
+        <div class="col bg-primary">1</div>
+        <div class="col bg-secondary">2</div>
+        <div class="col bg-info">3</div>
+        <div class="col bg-success">4</div>
+        <div class="col bg-secondary">5</div>
+        <div class="col bg-primary">6</div>
+        <div class="col bg-secondary">7</div>
+        <div class="col bg-info">8</div>
+        <div class="col bg-secondary">9</div>
+        <div class="col bg-success">10</div>
+        <div class="col bg-secondary">11</div>
+        <div class="col bg-info">12</div>
+    </div>
+    <br>
+    <div class="row">
+        <!--usando col-2 col-4 col-5 adaptando os espaços da coluna-->
+        <div class="col bg-primary "> 1 </div>
+        <div class="col-2 bg-danger ">2</div>
+        <div class="col-4 bg-secondary  ">2</div>
+        <div class="col-5 bg-info   ">2</div>
+    </div>
+    <br>
+    <h1>2. grid  responsivo</h1>
+    <div class="row">
+        <!---usando grid responsivo onde vao se apertando de acordo com o 
+        tamanho da tela-->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2  col-xl-1  bg-primary "> conteudo 1</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2  col-xl-1  bg-success  "> conteudo 2</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2  col-xl-1  bg-info  "> conteudo 3</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2  col-xl-1  bg-info  "> conteudo 4</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2  col-xl-1  bg-info  "> conteudo 5</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2  col-xl-1  bg-info  "> conteudo 6</div>
+    </div>
+
+    <h1>3. alinhamento vertical</h1>
+    <div class="row" style="height: 300px;">
+        <div class="col-3 align-self-end bg-primary">1</div>
+        <div class="col-3 align-self-center bg-success">2</div>
+        <div class="col-3 align-self-start bg-primary">3</div>
+    </div>
+
+    <h1>4. Alinhamento horizontal</h1>
+
+    <div class="row justify-content-center " style=" height: 150px;">
+        <div class="col-3 bg-primary ">1</div>
+    </div>
+</body>
+</html>

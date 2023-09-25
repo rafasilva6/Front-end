@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container pt-5 ">
+    <!--Com bootstrap-->
+    <!--
+        01- Tipo primary com cor do texto black
+        02- Tipo danger com cor do texto dark
+        03- Tipo warning
+        04- Tipo info com cor do texto secondary e o background do texto sucess
+        
+        Crie botões usando elementos da tag "a" e do tipo input "submit"
+        05- Tag "a": tipo primary 
+        06- Tag Input "submit": tipo sucess
+
+        Crie botões do tipo Outline
+        07- Botao do tipo primary
+        08- Botao do tipo warning
+
+        Crie um botao ocupando a linha inteira
+        09- Do tipo Outline sucess, larger e margin top 3
+    -->
+
+    <!-- com bootstrap-->
+    <button type="button" class="btn btn-primary text-black">comprar</button>
+    <button type="button" class="btn btn-danger text-dark ">Comprar</button>
+    <button type="button" class="btn btn-warning">comprar</button>
+    <button type="button" class="btn btn-info text-secondary text-bg-success">comprar</button>
+    
+    <!--Atribuindo classes de botoes em elementos diferentes-->
+    <a href="#" class="btn btn-primary">outro botao</a>
+    <input type="submit" class="btn btn-success" value="botao">
+    
+    <!--Outline-->
+    <button type="button" class="btn btn-outline-primary">Outline</button>
+    <button type="button" class="btn btn-outline-warning">Outline2</button>
+    <br><br>
+    
+    <!--Ocupando linha inteira-->
+    <div class="d-grid">
+        <button class="btn btn-outline-success btn-lg mt-3" type="button">Button</button>
+    </div>
+    <br><br>
+    <div class="d-grid">
+        <button class="btn btn-success btn-lg mt-3 w-25" type="button">Button</button>
+    </div>
+    <div class="d-grid">
+        <button class="btn btn-info btn-lg mt-3 w-50"  type="button">Button</button>
+    </div>
+    <div class="d-grid">
+        <button class="btn btn-info btn-lg mt-3 w-75" disabled  type="button">Button</button>
+    </div>
+
+    <br><br>
+
+    <!--Botões extras-->
+    <div>
+        <button class="w-25">botao 1</button>
+    </div>
+
+    <br>
+
+    <div>
+        <button class="w-50">botao 2</button>
+    </div>
+
+    <br>
+
+    <div>
+        <button class="w-100">botao 3</button>
+    </div>
+
+    <br><br><br>
+
+    <!--Criando um box model-->
+    <h1>Box model</h1>
+    <hr>
+    <div class="display-1 bg-warning border border-primary border-5 text-center rounded-5">
+        BoxModel
+    </div>
+
+</body>
+</html>
